@@ -1,0 +1,5 @@
+hot
+warm
+good
+excellent
+fantastic
