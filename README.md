@@ -1,14 +1,15 @@
-- read-all.py -> reads xml and organizes all comments to files in respective directories
-- read-xml.py -> reads all comments and finds all phrases
-- cold_words.txt -> list of all negative words in our dictionary
-- hot_words.txt -> list of all positive words in our dictionary
-- dir.txt -> lists the number of comments on each thread/discussion topic
-- phrase_scores.txt -> gives phrase, its number of hits, its number of positive hits and number of negative hits
-- cpp-hits-near.cpp -> calculates everything in phrase_scores.txt
-- hits-near.py -> replaced with faster cpp-hits-near.cpp
-- phrase-sent.cpp -> given the data on phrase_scores.txt, it calculates the sentiment of each phrase
-- sorting.cpp -> deletes invalid phrases, phrases that do not occur too often and sorts all phrases to words.sorted
-- determineSentiment.cpp -> determines the sentiment of each comment and thread 
+File descriptions:
+  - read-all.py -> reads xml and organizes all comments to files in respective directories
+  - read-xml.py -> reads all comments and finds all phrases
+  - cold_words.txt -> list of all negative words in our dictionary
+  - hot_words.txt -> list of all positive words in our dictionary
+  - dir.txt -> lists the number of comments on each thread/discussion topic
+  - phrase_scores.txt -> gives phrase, its number of hits, its number of positive hits and number of negative hits
+  - cpp-hits-near.cpp -> calculates everything in phrase_scores.txt
+  - hits-near.py -> replaced with faster cpp-hits-near.cpp
+  - phrase-sent.cpp -> given the data on phrase_scores.txt, it calculates the sentiment of each phrase
+  - sorting.cpp -> deletes invalid phrases, phrases that do not occur too often and sorts all phrases to words.sorted
+  - determineSentiment.cpp -> determines the sentiment of each comment and thread 
 
 How to use:
   - run read-all.py to read the xml contents for later use
